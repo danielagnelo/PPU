@@ -7,3 +7,7 @@
 - Start the server: `npm run dev` or `yarn dev`
 
 - Views are on: `localhost:3000`
+
+<!-- ---------------------------------- -->
+
+- This template is from Devias Kit
