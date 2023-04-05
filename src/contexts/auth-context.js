@@ -116,7 +116,7 @@ export const AuthProvider = (props) => {
       'Content-Type': 'application/json',
       'Authorization': authorization
     };
-    const response = await fetch('http://10.30.152.21:8080/auth/user', {
+    const response = await fetch('seu ip/auth/user', {
       method: 'POST',
       headers: headers
     });
@@ -129,7 +129,7 @@ export const AuthProvider = (props) => {
     }
   }
   const signIn = async (nip, senha) => {
-    const response = await fetch('http://10.30.152.21:8080/login', {
+    const response = await fetch('seu ip/login', {
       method: 'POST',
       body: JSON.stringify({ nip, senha })
     });
