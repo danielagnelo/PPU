@@ -204,7 +204,7 @@ export const SideNav = (props) => {
               </SvgIcon>
             )}
             fullWidth
-            href="http://10.30.112.124/"
+            href="seu ip"
             sx={{ mt: 2 }}
             target="_blank"
             variant="contained"
